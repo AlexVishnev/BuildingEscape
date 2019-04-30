@@ -2584,9 +2584,26 @@ INCLUDEPATH += \
 	/home/ovishevskiy/.proj/UnrealEngine/Engine/Plugins/VirtualProduction/Takes/Source/TakeRecorderSources/Private \
 	/home/ovishevskiy/.proj/UnrealEngine/Engine/Plugins/VirtualProduction/Takes/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TakeRecorderSources \
 	/home/ovishevskiy/.proj/UnrealEngine/Engine/Plugins/VirtualProduction/Takes/Source/TakeRecorder/Private \
-	Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BuildingEscape \
-	Source \
-	Source/BuildingEscape \
+	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/AI \
+	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/AI/Navigation \
+	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Analytics \
+	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Animation \
+	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Curves \
+	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/EdGraph \
+	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Internationalization \
+	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Net \
+	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Net/Util \
+	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/PacketHandlers \
+	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Performance \
+	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Physics \
+	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Physics/Experimental \
+	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Physics/ImmediatePhysics \
+	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/ProfilingDebugging \
+	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Rendering \
+	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Slate \
+	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Subsystems \
+	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Tests \
+	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/VisualLogger \
 	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Core \
 	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Core/Public/Algo \
 	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Core/Public/Algo/Impl \
@@ -2622,26 +2639,6 @@ INCLUDEPATH += \
 	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/Serialization \
 	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/Serialization/Formatters \
 	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/Templates \
-	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/AI \
-	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/AI/Navigation \
-	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Analytics \
-	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Animation \
-	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Curves \
-	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/EdGraph \
-	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Internationalization \
-	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Net \
-	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Net/Util \
-	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/PacketHandlers \
-	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Performance \
-	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Physics \
-	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Physics/Experimental \
-	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Physics/ImmediatePhysics \
-	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/ProfilingDebugging \
-	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Rendering \
-	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Slate \
-	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Subsystems \
-	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/Tests \
-	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/Engine/Public/VisualLogger \
 	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/ApplicationCore \
 	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public/GenericPlatform \
 	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public/HAL \
@@ -2820,4 +2817,7 @@ INCLUDEPATH += \
 	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/DSP \
 	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/DSP/Encoders \
 	/home/ovishevskiy/.proj/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/SoundFileIO \
+	Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BuildingEscape \
+	Source \
+	Source/BuildingEscape \
 

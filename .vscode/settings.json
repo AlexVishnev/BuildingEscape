@@ -1,7 +1,11 @@
 {
 	"files.exclude": {
+		"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/.git": true,
+		"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/.kdev4": true,
 		"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/.vscode": true,
 		"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/Content": true,
-		"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/Intermediate": true
+		"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/DerivedDataCache": true,
+		"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/Intermediate": true,
+		"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/Saved": true
 	}
 }
