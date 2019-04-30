@@ -3,7 +3,7 @@
 
 #include "PositionReport.h"
 
-#define PRINT(text) if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT(text));
+#include "Defines.h"
 
 
 

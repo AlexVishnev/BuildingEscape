@@ -20,6 +20,7 @@ void UGrabber::BeginPlay()
 {
 	Super::BeginPlay();
 
+	UE_LOG(LogTemp, Warning, TEXT("-----HELLO MOTHERFUCKER\n"))
 	// ...
 	
 }
@@ -30,6 +31,12 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
+	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(PlayerViewPointLocation, PlayerViewPointRotation);
+
+	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector() * Reach;
+
+	DrawDebugLine(GetWorld(), PlayerViewPointLocation, LineTraceEnd, \
+				 FColor::Red, false, 0.f, 0.f, 10.f);
+
 }
 
