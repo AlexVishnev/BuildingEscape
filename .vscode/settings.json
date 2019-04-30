@@ -1,0 +1,7 @@
+{
+	"files.exclude": {
+		"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/.vscode": true,
+		"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/Content": true,
+		"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/Intermediate": true
+	}
+}

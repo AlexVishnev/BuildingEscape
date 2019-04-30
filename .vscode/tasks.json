@@ -1,0 +1,1710 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "BuildingEscape Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Mac",
+				"Debug",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Mac",
+				"Debug",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Mac",
+				"Debug",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Mac",
+				"DebugGame",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Mac",
+				"DebugGame",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Mac",
+				"DebugGame",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Mac",
+				"Development",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Mac",
+				"Development",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Mac",
+				"Development",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Mac",
+				"Shipping",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Mac",
+				"Shipping",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Mac",
+				"Shipping",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Mac",
+				"Test",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Mac",
+				"Test",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Mac",
+				"Test",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"IOS",
+				"Debug",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"IOS",
+				"Debug",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"IOS",
+				"Debug",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"IOS",
+				"DebugGame",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"IOS",
+				"DebugGame",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"IOS",
+				"DebugGame",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"IOS",
+				"Development",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"IOS",
+				"Development",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"IOS",
+				"Development",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"IOS",
+				"Shipping",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"IOS",
+				"Shipping",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"IOS",
+				"Shipping",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"IOS",
+				"Test",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"IOS",
+				"Test",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"IOS",
+				"Test",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"HTML5",
+				"Debug",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"HTML5",
+				"Debug",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"HTML5",
+				"Debug",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"HTML5",
+				"DebugGame",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"HTML5",
+				"DebugGame",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"HTML5",
+				"DebugGame",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape HTML5 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"HTML5",
+				"Development",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"HTML5",
+				"Development",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"HTML5",
+				"Development",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"HTML5",
+				"Shipping",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"HTML5",
+				"Shipping",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"HTML5",
+				"Shipping",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape HTML5 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"HTML5",
+				"Test",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"HTML5",
+				"Test",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"HTML5",
+				"Test",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Linux",
+				"Debug",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Linux",
+				"Debug",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Linux",
+				"Debug",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Linux",
+				"DebugGame",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Linux",
+				"DebugGame",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Linux",
+				"DebugGame",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Linux",
+				"Development",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Linux",
+				"Development",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Linux",
+				"Development",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Linux",
+				"Shipping",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Linux",
+				"Shipping",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Linux",
+				"Shipping",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Linux",
+				"Test",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Linux",
+				"Test",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"Linux",
+				"Test",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"TVOS",
+				"Debug",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"TVOS",
+				"Debug",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"TVOS",
+				"Debug",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"TVOS",
+				"DebugGame",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"TVOS",
+				"DebugGame",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"TVOS",
+				"DebugGame",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"TVOS",
+				"Development",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"TVOS",
+				"Development",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"TVOS",
+				"Development",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"TVOS",
+				"Shipping",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"TVOS",
+				"Shipping",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"TVOS",
+				"Shipping",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"TVOS",
+				"Test",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"TVOS",
+				"Test",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscape TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscape TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscape",
+				"TVOS",
+				"Test",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Linux",
+				"Debug",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Linux",
+				"Debug",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscapeEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Linux",
+				"Debug",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Linux",
+				"DebugGame",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Linux",
+				"DebugGame",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscapeEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Linux",
+				"DebugGame",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Linux",
+				"Development",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Linux",
+				"Development",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscapeEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Linux",
+				"Development",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Mac",
+				"Debug",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Mac",
+				"Debug",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscapeEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Mac",
+				"Debug",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Mac",
+				"DebugGame",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Mac",
+				"DebugGame",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscapeEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Mac",
+				"DebugGame",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Mac",
+				"Development",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Mac",
+				"Development",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BuildingEscapeEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		},
+		{
+			"label": "BuildingEscapeEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BuildingEscapeEditor",
+				"Mac",
+				"Development",
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/ovishevskiy/.proj/UnrealEngine"
+			}
+		}
+	]
+}
