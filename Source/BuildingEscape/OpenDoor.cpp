@@ -3,7 +3,7 @@
 
 #include "OpenDoor.h"
 #ifndef PRINT
-# define PRINT(text) if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT(text));
+# define PRINT(text) if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT(text));
 #endif // !1
 
 
@@ -18,8 +18,10 @@ UOpenDoor::UOpenDoor()
 	// ...
 }
 
-void UOpenDoor::OpenDoor()
+void UOpenDoor::ChangeDoorState(bool is_open)
 {
+	if (Owner)
+		Owner->SetActorRotation(is_open ? OpenState : CloseState);
 
 
 }
@@ -28,7 +30,12 @@ void UOpenDoor::OpenDoor()
 void UOpenDoor::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	Owner			= GetOwner();
+	ActorThatOpen	= GetWorld()->GetFirstPlayerController()->GetPawn();
+
+	OpenState		= FRotator(0.0f, 90.0f, 0.0f);
+	CloseState		= FRotator(0.0f, 0.0f, 0.0f);
 }
 
 
@@ -38,16 +45,15 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 	if (PressurePlate && PressurePlate->IsOverlappingActor(ActorThatOpen)){
 		
-		PRINT("ENTRY BLYAD");
-		
+		PRINT("COLLISION");
 
-		AActor *Owner = GetOwner();
-		
-		if (Owner)
-			Owner->SetActorRotation(OpenState);
-
-		OpenDoor();
+		ChangeDoorState(true);
+		LastOpenTimeDoor =  GetWorld()->GetTimeSeconds();
+	
 	}
+
+	if (GetWorld()->GetTimeSeconds() - LastOpenTimeDoor > DoorCloseDelay)
+		ChangeDoorState(false);
 
 	// ...
 }

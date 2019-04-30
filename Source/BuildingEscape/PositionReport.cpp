@@ -29,7 +29,6 @@ void UPositionReport::BeginPlay()
 	// FVector pos = GetOwner()->GetActorPosition();	
 	FString pos = GetOwner()->GetActorLocation().ToString();
 	UE_LOG(LogTemp, Warning, TEXT("%s is at %s\n"), *(GetOwner()->GetName()), *pos);
-	PRINT("BLYAT");
 	
 }
 
