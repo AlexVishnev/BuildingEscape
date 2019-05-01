@@ -41,10 +41,9 @@ void UOpenDoor::BeginPlay()
 void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-	if (PressurePlate && PressurePlate->IsOverlappingActor(ActorThatOpen)){
-		
-		PRINT("COLLISION");
 
+	if (PressurePlate && PressurePlate->IsOverlappingActor(ActorThatOpen)){
+		PRINT("COLLISION");
 		ChangeDoorState(true);
 		LastOpenTimeDoor =  GetWorld()->GetTimeSeconds();
 	
