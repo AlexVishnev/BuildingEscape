@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "Engine/TriggerVolume.h"
+#include <list>
 #include "OpenDoor.generated.h"
 
 
@@ -17,22 +18,27 @@ public:
 	// Sets default values for this component's properties
 	UOpenDoor();
 
+	bool DoorIsOpen(FString name);
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
-	void	ChangeDoorState(bool is_open); // close || open
 
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 private:
 
-	UPROPERTY(EditAnywhere)
-	FRotator OpenState;
+	void	ChangeDoorState(FString name, bool bDoorIsOpen, float AnimationDelay);
+	void	CreateAnimationForDoorStates();
 
-	UPROPERTY(VisibleAnywhere)
+
+	std::list <FRotator> OpenStates;
+	std::list <FRotator> CloseStates;
+	
 	FRotator CloseState;
-
+	FRotator OpenState;
+	
 	UPROPERTY(EditAnywhere)
 	ATriggerVolume *PressurePlate;
 

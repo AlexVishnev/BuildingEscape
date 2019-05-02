@@ -13,8 +13,6 @@ UPositionReport::UPositionReport()
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
-	this->x = 0;
-	this->y = 0;
 
 	// ...
 	
@@ -25,10 +23,9 @@ UPositionReport::UPositionReport()
 void UPositionReport::BeginPlay()
 {
 	Super::BeginPlay();
-	FString lol = "undefine";
-	// FVector pos = GetOwner()->GetActorPosition();	
-	FString pos = GetOwner()->GetActorLocation().ToString();
-	UE_LOG(LogTemp, Warning, TEXT("%s is at %s\n"), *(GetOwner()->GetName()), *pos);
+
+	FString Position = GetOwner()->GetActorLocation().ToString();
+	UE_LOG(LogTemp, Warning, TEXT("%s is at %s\n"), *(GetOwner()->GetName()), *Position);
 	
 }
 
