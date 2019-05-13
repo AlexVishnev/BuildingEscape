@@ -1,10 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "OpenDoor.h"
 #include "Defines.h"
-
-
 
 // Sets default values for this component's properties
 UOpenDoor::UOpenDoor()
@@ -12,7 +9,6 @@ UOpenDoor::UOpenDoor()
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
-
 	// ...
 }
 
@@ -24,21 +20,25 @@ void	UOpenDoor::CreateAnimationForDoorStates()
 		CloseStates.push_back(FRotator(0.f, 90.f - i, 0.f));
 	}
 }
+
 bool UOpenDoor::DoorIsOpen(FString name)
 {
 	return true;
 }
+
 void UOpenDoor::ChangeDoorState(FString name, bool bDoorIsOpen, float AnimationDelay)
 {
 //	if (Owner)
 //		Owner->SetActorRotation(bDoorIsOpen ? OpenState : CloseState); //
 
-	if (bDoorIsOpen){
+	if (bDoorIsOpen)
+	{
 		for (auto State: OpenStates)
 		{
 			if (Owner)
+			{
 				Owner->SetActorRotation(State);
-
+			}
 		}
 	}
 }
@@ -63,17 +63,18 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	if (PressurePlate && PressurePlate->IsOverlappingActor(ActorThatOpen)){
+	if (PressurePlate && PressurePlate->IsOverlappingActor(ActorThatOpen))
+	{
 		PRINT("COLLISION DOOR IS OPEN");
 		ChangeDoorState("", OPENDOOR, GetWorld()->GetTimeSeconds() - LastOpenTimeDoor);
 		LastOpenTimeDoor = GetWorld()->GetTimeSeconds();
 	}
 
-	if (GetWorld()->GetTimeSeconds() - LastOpenTimeDoor > DoorCloseDelay) {//close door after delay
+	//close door after delay
+	if (GetWorld()->GetTimeSeconds() - LastOpenTimeDoor > DoorCloseDelay) 
+	{
 		ChangeDoorState("",CLOSEDOOR, GetWorld()->GetTimeSeconds() - LastOpenTimeDoor);
 		PRINT("TIMES OUT door is closed");
 	}
-
-	// ...
 }
 

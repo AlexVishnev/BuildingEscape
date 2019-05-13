@@ -20,7 +20,7 @@ void UGrabber::BeginPlay()
 {
 	Super::BeginPlay();
 
-
+	World = GetWorld();
 	// ...
 	
 }
@@ -31,12 +31,26 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(PlayerViewPointLocation, PlayerViewPointRotation);
+	World->GetFirstPlayerController()->GetPlayerViewPoint(PlayerViewPointLocation, PlayerViewPointRotation);
 
 	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector() * Reach;
 
-	DrawDebugLine(GetWorld(), PlayerViewPointLocation, LineTraceEnd, \
+	DrawDebugLine(World, PlayerViewPointLocation, LineTraceEnd, \
 				 FColor::Red, false, 0.f, 0.f, 10.f);
 
+	FCollisionQueryParams TraceParams(FName(TEXT("")), false, GetOwner()); 
+
+
+	FHitResult Hit;
+	World->LineTraceSingleByObjectType(Hit, PlayerViewPointLocation, 
+			LineTraceEnd, FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
+			TraceParams
+			);
+			
+	AActor *ActorHit = Hit.GetActor();
+	if (ActorHit)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Line trace hit : %s"), *(ActorHit->GetName()));
+	}
 }
 

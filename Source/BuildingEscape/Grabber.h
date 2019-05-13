@@ -28,6 +28,7 @@ public:
 private: 
 	float Reach = 100.f;
 	
+	UWorld const *World;
 	FVector PlayerViewPointLocation;
 	FRotator PlayerViewPointRotation;
 	
