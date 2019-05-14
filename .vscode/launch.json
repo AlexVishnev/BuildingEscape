@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "BuildingEscape (Debug)",
+			"request": "launch",
+			"preLaunchTask": "BuildingEscape Linux Debug Build",
+			"program": "/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape 4.22/Binaries/Linux/BuildingEscape-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/home/ovishevskiy/.proj/Editors/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "BuildingEscape (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "BuildingEscape Linux DebugGame Build",
+			"program": "/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape 4.22/Binaries/Linux/BuildingEscape-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/home/ovishevskiy/.proj/Editors/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "BuildingEscape (Development)",
+			"request": "launch",
+			"preLaunchTask": "BuildingEscape Linux Development Build",
+			"program": "/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape 4.22/Binaries/Linux/BuildingEscape",
+			"args": [
+			],
+			"cwd": "/home/ovishevskiy/.proj/Editors/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "BuildingEscape (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "BuildingEscape Linux Shipping Build",
+			"program": "/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape 4.22/Binaries/Linux/BuildingEscape-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/home/ovishevskiy/.proj/Editors/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "BuildingEscape (Test)",
+			"request": "launch",
+			"preLaunchTask": "BuildingEscape Linux Test Build",
+			"program": "/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape 4.22/Binaries/Linux/BuildingEscape-Linux-Test",
+			"args": [
+			],
+			"cwd": "/home/ovishevskiy/.proj/Editors/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "BuildingEscapeEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "BuildingEscapeEditor Linux Debug Build",
+			"program": "/home/ovishevskiy/.proj/Editors/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape 4.22/BuildingEscape.uproject"
+			],
+			"cwd": "/home/ovishevskiy/.proj/Editors/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "BuildingEscapeEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "BuildingEscapeEditor Linux DebugGame Build",
+			"program": "/home/ovishevskiy/.proj/Editors/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape 4.22/BuildingEscape.uproject"
+			],
+			"cwd": "/home/ovishevskiy/.proj/Editors/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "BuildingEscapeEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "BuildingEscapeEditor Linux Development Build",
+			"program": "/home/ovishevskiy/.proj/Editors/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape 4.22/BuildingEscape.uproject"
+			],
+			"cwd": "/home/ovishevskiy/.proj/Editors/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/home/ovishevskiy/.proj/Editors/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape 4.22/BuildingEscape.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/home/ovishevskiy/.proj/Editors/UnrealEngine"
+		}
+	]
+}

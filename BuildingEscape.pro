@@ -9,10 +9,10 @@ CONFIG -= qt
 
 TARGET = UE4 
 
-unrealRootPath=/home/ovishevskiy/.proj/UnrealEngine
-BuildingEscapeRootPath=/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape
+unrealRootPath=/home/ovishevskiy/.proj/Editors/UnrealEngine
+BuildingEscapeRootPath=/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape 4.22
 
-gameProjectFile=/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape/BuildingEscape.uproject
+gameProjectFile=/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape 4.22/BuildingEscape.uproject
 build=bash $$unrealRootPath/Engine/Build/BatchFiles/Linux/RunMono.sh $$unrealRootPath/Engine/Binaries/DotNET/UnrealBuildTool.exe
 
 args=$(ARGS)
