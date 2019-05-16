@@ -15,7 +15,7 @@ UGrabber::UGrabber()
 }
 
 void UGrabber::Grab(){
-	UE_LOG(LogTemp, Warning, TEXT("Input component found %s"), *GetOwner()->GetName() )
+	UE_LOG(LogTemp, Warning, TEXT("Input component found %s"), 	 )
 }
 // Called when the game starts
 void UGrabber::BeginPlay()
