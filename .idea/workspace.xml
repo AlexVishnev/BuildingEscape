@@ -1,0 +1,1398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="UE4" targetName="UnrealLaunchDaemon-Linux-DebugGame" />
+      <config projectName="UE4" targetName="BuildingEscapeEditor-Linux-DebugGame" />
+      <config projectName="UE4" targetName="BlankProgram-Linux-Debug" />
+      <config projectName="UE4" targetName="UE4Game-Linux-Debug" />
+      <config projectName="UE4" targetName="MayaLiveLinkPlugin2018-Linux-Shipping" />
+      <config projectName="UE4" targetName="SlateViewer" />
+      <config projectName="UE4" targetName="BuildingEscapeEditor-Linux-Debug" />
+      <config projectName="UE4" targetName="UE4EditorServices-Linux-Test" />
+      <config projectName="UE4" targetName="WebRTCProxy-Linux-Debug" />
+      <config projectName="UE4" targetName="MinidumpDiagnostics-Linux-Test" />
+      <config projectName="UE4" targetName="UE4Editor" />
+      <config projectName="UE4" targetName="UnrealWatchdog" />
+      <config projectName="UE4" targetName="DsymExporter-Linux-Debug" />
+      <config projectName="UE4" targetName="UnrealFileServer-Linux-DebugGame" />
+      <config projectName="UE4" targetName="UE4Client-Linux-Test" />
+      <config projectName="UE4" targetName="MayaLiveLinkPlugin2018-Linux-Test" />
+      <config projectName="UE4" targetName="MayaLiveLinkPlugin2017-Linux-Test" />
+      <config projectName="UE4" targetName="MayaLiveLinkPlugin2016-Linux-Test" />
+      <config projectName="UE4" targetName="MayaLiveLinkPlugin2017-Linux-Debug" />
+      <config projectName="UE4" targetName="SlateViewer-Linux-DebugGame" />
+      <config projectName="UE4" targetName="UE4EditorServices-Linux-Shipping" />
+      <config projectName="UE4" targetName="BootstrapPackagedGame" />
+      <config projectName="UE4" targetName="MinidumpDiagnostics-Linux-Shipping" />
+      <config projectName="UE4" targetName="UnrealCEFSubProcess" />
+      <config projectName="UE4" targetName="UnrealLaunchDaemon-Linux-Debug" />
+      <config projectName="UE4" targetName="UnrealPak-Linux-Shipping" />
+      <config projectName="UE4" targetName="UE4Client-Linux-Debug" />
+      <config projectName="UE4" targetName="SymbolDebugger" />
+      <config projectName="UE4" targetName="MayaLiveLinkPlugin2016-Linux-DebugGame" />
+      <config projectName="UE4" targetName="UnrealFileServer-Linux-Debug" />
+      <config projectName="UE4" targetName="LiveCodingConsole-Linux-Shipping" />
+      <config projectName="UE4" targetName="BuildingEscape-Linux-Test" />
+      <config projectName="UE4" targetName="LiveCodingConsole-Linux-Test" />
+      <config projectName="UE4" targetName="UE4Game-Linux-DebugGame" />
+      <config projectName="UE4" targetName="ShaderCompileWorker" />
+      <config projectName="UE4" targetName="UE4Editor-Linux-Test" />
+      <config projectName="UE4" targetName="MayaLiveLinkPlugin2017-Linux-DebugGame" />
+      <config projectName="UE4" targetName="UE4Editor-Linux-Shipping" />
+      <config projectName="UE4" targetName="SymbolDebugger-Linux-DebugGame" />
+      <config projectName="UE4" targetName="TestPAL-Linux-Debug" />
+      <config projectName="UE4" targetName="UnrealLightmass-Linux-Debug" />
+      <config projectName="UE4" targetName="UnrealCEFSubProcess-Linux-DebugGame" />
+      <config projectName="UE4" targetName="DsymExporter" />
+      <config projectName="UE4" targetName="UE4EditorServices-Linux-Debug" />
+      <config projectName="UE4" targetName="BuildingEscape" />
+      <config projectName="UE4" targetName="UnrealPak-Linux-Debug" />
+      <config projectName="UE4" targetName="TestPAL-Linux-DebugGame" />
+      <config projectName="UE4" targetName="MayaLiveLinkPlugin2018-Linux-DebugGame" />
+      <config projectName="UE4" targetName="UnrealWatchdog-Linux-Test" />
+      <config projectName="UE4" targetName="UnrealCEFSubProcess-Linux-Test" />
+      <config projectName="UE4" targetName="CrashReportClient-Linux-Test" />
+      <config projectName="UE4" targetName="UnrealMultiUserServer-Linux-Debug" />
+      <config projectName="UE4" targetName="UnrealAtoS-Linux-Shipping" />
+      <config projectName="UE4" targetName="SlateViewer-Linux-Shipping" />
+      <config projectName="UE4" targetName="MayaLiveLinkPlugin2016-Linux-Shipping" />
+      <config projectName="UE4" targetName="TestPAL-Linux-Test" />
+      <config projectName="UE4" targetName="UnrealLightmass-Linux-Test" />
+      <config projectName="UE4" targetName="BuildPatchTool-Linux-Shipping" />
+      <config projectName="UE4" targetName="BuildingEscape-Linux-Shipping" />
+      <config projectName="UE4" targetName="BuildingEscape-Linux-Debug" />
+      <config projectName="UE4" targetName="UnrealFileServer-Linux-Test" />
+      <config projectName="UE4" targetName="UE4Server" />
+      <config projectName="UE4" targetName="UnrealFrontend-Linux-Debug" />
+      <config projectName="UE4" targetName="CrashReportClient" />
+      <config projectName="UE4" targetName="BlankProgram-Linux-Shipping" />
+      <config projectName="UE4" targetName="BootstrapPackagedGame-Linux-Shipping" />
+      <config projectName="UE4" targetName="MayaLiveLinkPlugin2018" />
+      <config projectName="UE4" targetName="MayaLiveLinkPlugin2017" />
+      <config projectName="UE4" targetName="MayaLiveLinkPlugin2016" />
+      <config projectName="UE4" targetName="MinidumpDiagnostics-Linux-DebugGame" />
+      <config projectName="UE4" targetName="UE4Game-Linux-Shipping" />
+      <config projectName="UE4" targetName="UnrealFrontend-Linux-Shipping" />
+      <config projectName="UE4" targetName="MinidumpDiagnostics" />
+      <config projectName="UE4" targetName="UnrealWatchdog-Linux-DebugGame" />
+      <config projectName="UE4" targetName="WebRTCProxy" />
+      <config projectName="UE4" targetName="UnrealCEFSubProcess-Linux-Shipping" />
+      <config projectName="UE4" targetName="UnrealFrontend-Linux-DebugGame" />
+      <config projectName="UE4" targetName="UnrealAtoS-Linux-Debug" />
+      <config projectName="UE4" targetName="CrashReportClient-Linux-Shipping" />
+      <config projectName="UE4" targetName="MayaLiveLinkPlugin2016-Linux-Debug" />
+      <config projectName="UE4" targetName="SymbolDebugger-Linux-Shipping" />
+      <config projectName="UE4" targetName="MayaLiveLinkPlugin2018-Linux-Debug" />
+      <config projectName="UE4" targetName="SymbolDebugger-Linux-Test" />
+      <config projectName="UE4" targetName="UE4Server-Linux-DebugGame" />
+      <config projectName="UE4" targetName="UnrealWatchdog-Linux-Debug" />
+      <config projectName="UE4" targetName="UnrealHeaderTool-Linux-Debug" />
+      <config projectName="UE4" targetName="TestPAL" />
+      <config projectName="UE4" targetName="UE4EditorServices-Linux-DebugGame" />
+      <config projectName="UE4" targetName="UnrealPak" />
+      <config projectName="UE4" targetName="BuildPatchTool" />
+      <config projectName="UE4" targetName="UnrealHeaderTool" />
+      <config projectName="UE4" targetName="MinidumpDiagnostics-Linux-Debug" />
+      <config projectName="UE4" targetName="UnrealFileServer" />
+      <config projectName="UE4" targetName="BuildPatchTool-Linux-Test" />
+      <config projectName="UE4" targetName="WebRTCProxy-Linux-DebugGame" />
+      <config projectName="UE4" targetName="ShaderCompileWorker-Linux-Debug" />
+      <config projectName="UE4" targetName="UE4Server-Linux-Test" />
+      <config projectName="UE4" targetName="UnrealHeaderTool-Linux-Test" />
+      <config projectName="UE4" targetName="UnrealLightmass-Linux-DebugGame" />
+      <config projectName="UE4" targetName="BlankProgram-Linux-Test" />
+      <config projectName="UE4" targetName="UE4Editor-Linux-DebugGame" />
+      <config projectName="UE4" targetName="UnrealVersionSelector-Linux-Debug" />
+      <config projectName="UE4" targetName="WebRTCProxy-Linux-Test" />
+      <config projectName="UE4" targetName="UnrealFileServer-Linux-Shipping" />
+      <config projectName="UE4" targetName="ShaderCompileWorker-Linux-Shipping" />
+      <config projectName="UE4" targetName="ShaderCompileWorker-Linux-DebugGame" />
+      <config projectName="UE4" targetName="DsymExporter-Linux-Test" />
+      <config projectName="UE4" targetName="DsymExporter-Linux-DebugGame" />
+      <config projectName="UE4" targetName="UnrealHeaderTool-Linux-DebugGame" />
+      <config projectName="UE4" targetName="BuildingEscapeEditor" />
+      <config projectName="UE4" targetName="MayaLiveLinkPlugin2017-Linux-Shipping" />
+      <config projectName="UE4" targetName="UnrealCEFSubProcess-Linux-Debug" />
+      <config projectName="UE4" targetName="BuildingEscapeEditor-Linux-Test" />
+      <config projectName="UE4" targetName="UnrealAtoS-Linux-DebugGame" />
+      <config projectName="UE4" targetName="LiveCodingConsole-Linux-Debug" />
+      <config projectName="UE4" targetName="UnrealWatchdog-Linux-Shipping" />
+      <config projectName="UE4" targetName="UnrealMultiUserServer-Linux-Shipping" />
+      <config projectName="UE4" targetName="UnrealLightmass" />
+      <config projectName="UE4" targetName="BootstrapPackagedGame-Linux-Test" />
+      <config projectName="UE4" targetName="UnrealLaunchDaemon-Linux-Shipping" />
+      <config projectName="UE4" targetName="UnrealVersionSelector-Linux-Shipping" />
+      <config projectName="UE4" targetName="UE4Client" />
+      <config projectName="UE4" targetName="WebRTCProxy-Linux-Shipping" />
+      <config projectName="UE4" targetName="UnrealMultiUserServer-Linux-Test" />
+      <config projectName="UE4" targetName="BuildPatchTool-Linux-Debug" />
+      <config projectName="UE4" targetName="UnrealFrontend" />
+      <config projectName="UE4" targetName="UnrealLaunchDaemon-Linux-Test" />
+      <config projectName="UE4" targetName="TestPAL-Linux-Shipping" />
+      <config projectName="UE4" targetName="UnrealAtoS" />
+      <config projectName="UE4" targetName="BlankProgram" />
+      <config projectName="UE4" targetName="LiveCodingConsole-Linux-DebugGame" />
+      <config projectName="UE4" targetName="UnrealHeaderTool-Linux-Shipping" />
+      <config projectName="UE4" targetName="DsymExporter-Linux-Shipping" />
+      <config projectName="UE4" targetName="UnrealLaunchDaemon" />
+      <config projectName="UE4" targetName="UnrealMultiUserServer" />
+      <config projectName="UE4" targetName="UnrealVersionSelector" />
+      <config projectName="UE4" targetName="UE4Server-Linux-Debug" />
+      <config projectName="UE4" targetName="UnrealVersionSelector-Linux-DebugGame" />
+      <config projectName="UE4" targetName="UnrealMultiUserServer-Linux-DebugGame" />
+      <config projectName="UE4" targetName="CrashReportClient-Linux-Debug" />
+      <config projectName="UE4" targetName="BuildPatchTool-Linux-DebugGame" />
+      <config projectName="UE4" targetName="UnrealFrontend-Linux-Test" />
+      <config projectName="UE4" targetName="SlateViewer-Linux-Test" />
+      <config projectName="UE4" targetName="BlankProgram-Linux-DebugGame" />
+      <config projectName="UE4" targetName="BootstrapPackagedGame-Linux-DebugGame" />
+      <config projectName="UE4" targetName="BootstrapPackagedGame-Linux-Debug" />
+      <config projectName="UE4" targetName="BuildingEscape-Linux-DebugGame" />
+      <config projectName="UE4" targetName="UnrealAtoS-Linux-Test" />
+      <config projectName="UE4" targetName="ShaderCompileWorker-Linux-Test" />
+      <config projectName="UE4" targetName="CrashReportClient-Linux-DebugGame" />
+      <config projectName="UE4" targetName="UnrealPak-Linux-DebugGame" />
+      <config projectName="UE4" targetName="UE4EditorServices" />
+      <config projectName="UE4" targetName="UE4Game" />
+      <config projectName="UE4" targetName="SlateViewer-Linux-Debug" />
+      <config projectName="UE4" targetName="UnrealVersionSelector-Linux-Test" />
+      <config projectName="UE4" targetName="UE4Client-Linux-DebugGame" />
+      <config projectName="UE4" targetName="LiveCodingConsole" />
+      <config projectName="UE4" targetName="UE4Server-Linux-Shipping" />
+      <config projectName="UE4" targetName="UE4Editor-Linux-Debug" />
+      <config projectName="UE4" targetName="UE4Client-Linux-Shipping" />
+      <config projectName="UE4" targetName="UE4Game-Linux-Test" />
+      <config projectName="UE4" targetName="UnrealPak-Linux-Test" />
+      <config projectName="UE4" targetName="FakeTarget" />
+      <config projectName="UE4" targetName="SymbolDebugger-Linux-Debug" />
+      <config projectName="UE4" targetName="UnrealLightmass-Linux-Shipping" />
+      <config projectName="UE4" targetName="BuildingEscapeEditor-Linux-Shipping" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Default" GENERATION_DIR="." />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fbfe7833-5d2f-4712-89c8-c2ac47f64d7a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/NewMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/NewMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/BuildingEscape/Grabber.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/BuildingEscape/Grabber.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/BuildingEscape/Grabber.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/BuildingEscape/Grabber.h" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/CMakeFiles/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Default" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BuildingEscapeCodeCompletionFolders.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Source/BuildingEscape/Grabber.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2203" />
+    <option name="y" value="50" />
+    <option name="width" value="1400" />
+    <option name="height" value="997" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="UE4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuildingEscape 4.22" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="UE4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuildingEscape 4.22" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="BuildingEscape 4.22" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UE4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuildingEscape 4.22" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="BuildingEscape 4.22" type="462c0819:PsiDirectoryNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UE4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuildingEscape 4.22" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="BuildingEscape 4.22" type="462c0819:PsiDirectoryNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+              <item name="BuildingEscape" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UE4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.FakeTarget">
+    <configuration name="BlankProgram-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BlankProgram-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlankProgram-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BlankProgram-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlankProgram-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BlankProgram-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlankProgram-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BlankProgram-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlankProgram" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BlankProgram" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BootstrapPackagedGame-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BootstrapPackagedGame-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BootstrapPackagedGame-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BootstrapPackagedGame-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BootstrapPackagedGame-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BootstrapPackagedGame-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BootstrapPackagedGame-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BootstrapPackagedGame-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BootstrapPackagedGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BootstrapPackagedGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuildPatchTool-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BuildPatchTool-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuildPatchTool-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BuildPatchTool-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuildPatchTool-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BuildPatchTool-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuildPatchTool-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BuildPatchTool-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuildPatchTool" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BuildPatchTool" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuildingEscape-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BuildingEscape-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuildingEscape-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BuildingEscape-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuildingEscape-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BuildingEscape-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuildingEscape-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BuildingEscape-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuildingEscape" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BuildingEscape" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuildingEscapeEditor-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BuildingEscapeEditor-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuildingEscapeEditor-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BuildingEscapeEditor-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuildingEscapeEditor-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BuildingEscapeEditor-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuildingEscapeEditor-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BuildingEscapeEditor-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuildingEscapeEditor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="BuildingEscapeEditor" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrashReportClient-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="CrashReportClient-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrashReportClient-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="CrashReportClient-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrashReportClient-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="CrashReportClient-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrashReportClient-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="CrashReportClient-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrashReportClient" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="CrashReportClient" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DsymExporter-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="DsymExporter-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DsymExporter-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="DsymExporter-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DsymExporter-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="DsymExporter-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DsymExporter-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="DsymExporter-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DsymExporter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="DsymExporter" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FakeTarget" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="FakeTarget" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="UE4" RUN_TARGET_NAME="FakeTarget">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LiveCodingConsole-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="LiveCodingConsole-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LiveCodingConsole-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="LiveCodingConsole-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LiveCodingConsole-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="LiveCodingConsole-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LiveCodingConsole-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="LiveCodingConsole-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LiveCodingConsole" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="LiveCodingConsole" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MayaLiveLinkPlugin2016-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="MayaLiveLinkPlugin2016-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MayaLiveLinkPlugin2016-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="MayaLiveLinkPlugin2016-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MayaLiveLinkPlugin2016-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="MayaLiveLinkPlugin2016-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MayaLiveLinkPlugin2016-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="MayaLiveLinkPlugin2016-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MayaLiveLinkPlugin2016" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="MayaLiveLinkPlugin2016" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MayaLiveLinkPlugin2017-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="MayaLiveLinkPlugin2017-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MayaLiveLinkPlugin2017-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="MayaLiveLinkPlugin2017-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MayaLiveLinkPlugin2017-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="MayaLiveLinkPlugin2017-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MayaLiveLinkPlugin2017-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="MayaLiveLinkPlugin2017-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MayaLiveLinkPlugin2017" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="MayaLiveLinkPlugin2017" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MayaLiveLinkPlugin2018-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="MayaLiveLinkPlugin2018-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MayaLiveLinkPlugin2018-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="MayaLiveLinkPlugin2018-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MayaLiveLinkPlugin2018-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="MayaLiveLinkPlugin2018-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MayaLiveLinkPlugin2018-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="MayaLiveLinkPlugin2018-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MayaLiveLinkPlugin2018" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="MayaLiveLinkPlugin2018" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinidumpDiagnostics-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="MinidumpDiagnostics-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinidumpDiagnostics-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="MinidumpDiagnostics-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinidumpDiagnostics-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="MinidumpDiagnostics-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinidumpDiagnostics-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="MinidumpDiagnostics-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinidumpDiagnostics" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="MinidumpDiagnostics" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShaderCompileWorker-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="ShaderCompileWorker-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShaderCompileWorker-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="ShaderCompileWorker-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShaderCompileWorker-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="ShaderCompileWorker-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShaderCompileWorker-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="ShaderCompileWorker-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShaderCompileWorker" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="ShaderCompileWorker" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlateViewer-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="SlateViewer-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlateViewer-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="SlateViewer-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlateViewer-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="SlateViewer-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlateViewer-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="SlateViewer-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlateViewer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="SlateViewer" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SymbolDebugger-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="SymbolDebugger-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SymbolDebugger-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="SymbolDebugger-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SymbolDebugger-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="SymbolDebugger-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SymbolDebugger-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="SymbolDebugger-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SymbolDebugger" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="SymbolDebugger" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPAL-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="TestPAL-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPAL-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="TestPAL-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPAL-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="TestPAL-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPAL-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="TestPAL-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPAL" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="TestPAL" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Client-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Client-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Client-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Client-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Client-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Client-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Client-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Client-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Client" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Client" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Editor-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Editor-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Editor-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Editor-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Editor-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Editor-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Editor-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Editor-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Editor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Editor" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4EditorServices-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4EditorServices-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4EditorServices-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4EditorServices-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4EditorServices-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4EditorServices-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4EditorServices-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4EditorServices-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4EditorServices" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4EditorServices" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Game-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Game-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Game-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Game-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Game-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Game-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Game-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Game-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Game" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Game" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Server-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Server-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Server-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Server-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Server-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Server-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Server-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Server-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UE4Server" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UE4Server" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealAtoS-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealAtoS-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealAtoS-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealAtoS-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealAtoS-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealAtoS-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealAtoS-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealAtoS-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealAtoS" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealAtoS" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealCEFSubProcess-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealCEFSubProcess-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealCEFSubProcess-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealCEFSubProcess-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealCEFSubProcess-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealCEFSubProcess-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealCEFSubProcess-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealCEFSubProcess-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealCEFSubProcess" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealCEFSubProcess" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealFileServer-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealFileServer-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealFileServer-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealFileServer-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealFileServer-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealFileServer-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealFileServer-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealFileServer-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealFileServer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealFileServer" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealFrontend-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealFrontend-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealFrontend-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealFrontend-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealFrontend-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealFrontend-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealFrontend-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealFrontend-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealFrontend" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealFrontend" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealHeaderTool-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealHeaderTool-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealHeaderTool-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealHeaderTool-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealHeaderTool-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealHeaderTool-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealHeaderTool-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealHeaderTool-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealHeaderTool" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealHeaderTool" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealLaunchDaemon-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealLaunchDaemon-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealLaunchDaemon-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealLaunchDaemon-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealLaunchDaemon-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealLaunchDaemon-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealLaunchDaemon-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealLaunchDaemon-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealLaunchDaemon" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealLaunchDaemon" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealLightmass-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealLightmass-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealLightmass-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealLightmass-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealLightmass-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealLightmass-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealLightmass-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealLightmass-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealLightmass" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealLightmass" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealMultiUserServer-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealMultiUserServer-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealMultiUserServer-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealMultiUserServer-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealMultiUserServer-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealMultiUserServer-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealMultiUserServer-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealMultiUserServer-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealMultiUserServer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealMultiUserServer" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealPak-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealPak-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealPak-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealPak-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealPak-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealPak-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealPak-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealPak-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealPak" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealPak" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealVersionSelector-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealVersionSelector-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealVersionSelector-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealVersionSelector-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealVersionSelector-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealVersionSelector-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealVersionSelector-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealVersionSelector-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealVersionSelector" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealVersionSelector" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealWatchdog-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealWatchdog-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealWatchdog-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealWatchdog-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealWatchdog-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealWatchdog-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealWatchdog-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealWatchdog-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnrealWatchdog" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UnrealWatchdog" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebRTCProxy-Linux-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="WebRTCProxy-Linux-Debug" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebRTCProxy-Linux-DebugGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="WebRTCProxy-Linux-DebugGame" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebRTCProxy-Linux-Shipping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="WebRTCProxy-Linux-Shipping" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebRTCProxy-Linux-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="WebRTCProxy-Linux-Test" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebRTCProxy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="WebRTCProxy" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.BlankProgram" />
+      <item itemvalue="CMake Application.BlankProgram-Linux-Debug" />
+      <item itemvalue="CMake Application.BlankProgram-Linux-DebugGame" />
+      <item itemvalue="CMake Application.BlankProgram-Linux-Shipping" />
+      <item itemvalue="CMake Application.BlankProgram-Linux-Test" />
+      <item itemvalue="CMake Application.BootstrapPackagedGame" />
+      <item itemvalue="CMake Application.BootstrapPackagedGame-Linux-Debug" />
+      <item itemvalue="CMake Application.BootstrapPackagedGame-Linux-DebugGame" />
+      <item itemvalue="CMake Application.BootstrapPackagedGame-Linux-Shipping" />
+      <item itemvalue="CMake Application.BootstrapPackagedGame-Linux-Test" />
+      <item itemvalue="CMake Application.BuildingEscape" />
+      <item itemvalue="CMake Application.BuildingEscape-Linux-Debug" />
+      <item itemvalue="CMake Application.BuildingEscape-Linux-DebugGame" />
+      <item itemvalue="CMake Application.BuildingEscape-Linux-Shipping" />
+      <item itemvalue="CMake Application.BuildingEscape-Linux-Test" />
+      <item itemvalue="CMake Application.BuildingEscapeEditor" />
+      <item itemvalue="CMake Application.BuildingEscapeEditor-Linux-Debug" />
+      <item itemvalue="CMake Application.BuildingEscapeEditor-Linux-DebugGame" />
+      <item itemvalue="CMake Application.BuildingEscapeEditor-Linux-Shipping" />
+      <item itemvalue="CMake Application.BuildingEscapeEditor-Linux-Test" />
+      <item itemvalue="CMake Application.BuildPatchTool" />
+      <item itemvalue="CMake Application.BuildPatchTool-Linux-Debug" />
+      <item itemvalue="CMake Application.BuildPatchTool-Linux-DebugGame" />
+      <item itemvalue="CMake Application.BuildPatchTool-Linux-Shipping" />
+      <item itemvalue="CMake Application.BuildPatchTool-Linux-Test" />
+      <item itemvalue="CMake Application.CrashReportClient" />
+      <item itemvalue="CMake Application.CrashReportClient-Linux-Debug" />
+      <item itemvalue="CMake Application.CrashReportClient-Linux-DebugGame" />
+      <item itemvalue="CMake Application.CrashReportClient-Linux-Shipping" />
+      <item itemvalue="CMake Application.CrashReportClient-Linux-Test" />
+      <item itemvalue="CMake Application.DsymExporter" />
+      <item itemvalue="CMake Application.DsymExporter-Linux-Debug" />
+      <item itemvalue="CMake Application.DsymExporter-Linux-DebugGame" />
+      <item itemvalue="CMake Application.DsymExporter-Linux-Shipping" />
+      <item itemvalue="CMake Application.DsymExporter-Linux-Test" />
+      <item itemvalue="CMake Application.FakeTarget" />
+      <item itemvalue="CMake Application.LiveCodingConsole" />
+      <item itemvalue="CMake Application.LiveCodingConsole-Linux-Debug" />
+      <item itemvalue="CMake Application.LiveCodingConsole-Linux-DebugGame" />
+      <item itemvalue="CMake Application.LiveCodingConsole-Linux-Shipping" />
+      <item itemvalue="CMake Application.LiveCodingConsole-Linux-Test" />
+      <item itemvalue="CMake Application.MayaLiveLinkPlugin2016" />
+      <item itemvalue="CMake Application.MayaLiveLinkPlugin2016-Linux-Debug" />
+      <item itemvalue="CMake Application.MayaLiveLinkPlugin2016-Linux-DebugGame" />
+      <item itemvalue="CMake Application.MayaLiveLinkPlugin2016-Linux-Shipping" />
+      <item itemvalue="CMake Application.MayaLiveLinkPlugin2016-Linux-Test" />
+      <item itemvalue="CMake Application.MayaLiveLinkPlugin2017" />
+      <item itemvalue="CMake Application.MayaLiveLinkPlugin2017-Linux-Debug" />
+      <item itemvalue="CMake Application.MayaLiveLinkPlugin2017-Linux-DebugGame" />
+      <item itemvalue="CMake Application.MayaLiveLinkPlugin2017-Linux-Shipping" />
+      <item itemvalue="CMake Application.MayaLiveLinkPlugin2017-Linux-Test" />
+      <item itemvalue="CMake Application.MayaLiveLinkPlugin2018" />
+      <item itemvalue="CMake Application.MayaLiveLinkPlugin2018-Linux-Debug" />
+      <item itemvalue="CMake Application.MayaLiveLinkPlugin2018-Linux-DebugGame" />
+      <item itemvalue="CMake Application.MayaLiveLinkPlugin2018-Linux-Shipping" />
+      <item itemvalue="CMake Application.MayaLiveLinkPlugin2018-Linux-Test" />
+      <item itemvalue="CMake Application.MinidumpDiagnostics" />
+      <item itemvalue="CMake Application.MinidumpDiagnostics-Linux-Debug" />
+      <item itemvalue="CMake Application.MinidumpDiagnostics-Linux-DebugGame" />
+      <item itemvalue="CMake Application.MinidumpDiagnostics-Linux-Shipping" />
+      <item itemvalue="CMake Application.MinidumpDiagnostics-Linux-Test" />
+      <item itemvalue="CMake Application.ShaderCompileWorker" />
+      <item itemvalue="CMake Application.ShaderCompileWorker-Linux-Debug" />
+      <item itemvalue="CMake Application.ShaderCompileWorker-Linux-DebugGame" />
+      <item itemvalue="CMake Application.ShaderCompileWorker-Linux-Shipping" />
+      <item itemvalue="CMake Application.ShaderCompileWorker-Linux-Test" />
+      <item itemvalue="CMake Application.SlateViewer" />
+      <item itemvalue="CMake Application.SlateViewer-Linux-Debug" />
+      <item itemvalue="CMake Application.SlateViewer-Linux-DebugGame" />
+      <item itemvalue="CMake Application.SlateViewer-Linux-Shipping" />
+      <item itemvalue="CMake Application.SlateViewer-Linux-Test" />
+      <item itemvalue="CMake Application.SymbolDebugger" />
+      <item itemvalue="CMake Application.SymbolDebugger-Linux-Debug" />
+      <item itemvalue="CMake Application.SymbolDebugger-Linux-DebugGame" />
+      <item itemvalue="CMake Application.SymbolDebugger-Linux-Shipping" />
+      <item itemvalue="CMake Application.SymbolDebugger-Linux-Test" />
+      <item itemvalue="CMake Application.TestPAL" />
+      <item itemvalue="CMake Application.TestPAL-Linux-Debug" />
+      <item itemvalue="CMake Application.TestPAL-Linux-DebugGame" />
+      <item itemvalue="CMake Application.TestPAL-Linux-Shipping" />
+      <item itemvalue="CMake Application.TestPAL-Linux-Test" />
+      <item itemvalue="CMake Application.UE4Client" />
+      <item itemvalue="CMake Application.UE4Client-Linux-Debug" />
+      <item itemvalue="CMake Application.UE4Client-Linux-DebugGame" />
+      <item itemvalue="CMake Application.UE4Client-Linux-Shipping" />
+      <item itemvalue="CMake Application.UE4Client-Linux-Test" />
+      <item itemvalue="CMake Application.UE4Editor" />
+      <item itemvalue="CMake Application.UE4Editor-Linux-Debug" />
+      <item itemvalue="CMake Application.UE4Editor-Linux-DebugGame" />
+      <item itemvalue="CMake Application.UE4Editor-Linux-Shipping" />
+      <item itemvalue="CMake Application.UE4Editor-Linux-Test" />
+      <item itemvalue="CMake Application.UE4EditorServices" />
+      <item itemvalue="CMake Application.UE4EditorServices-Linux-Debug" />
+      <item itemvalue="CMake Application.UE4EditorServices-Linux-DebugGame" />
+      <item itemvalue="CMake Application.UE4EditorServices-Linux-Shipping" />
+      <item itemvalue="CMake Application.UE4EditorServices-Linux-Test" />
+      <item itemvalue="CMake Application.UE4Game" />
+      <item itemvalue="CMake Application.UE4Game-Linux-Debug" />
+      <item itemvalue="CMake Application.UE4Game-Linux-DebugGame" />
+      <item itemvalue="CMake Application.UE4Game-Linux-Shipping" />
+      <item itemvalue="CMake Application.UE4Game-Linux-Test" />
+      <item itemvalue="CMake Application.UE4Server" />
+      <item itemvalue="CMake Application.UE4Server-Linux-Debug" />
+      <item itemvalue="CMake Application.UE4Server-Linux-DebugGame" />
+      <item itemvalue="CMake Application.UE4Server-Linux-Shipping" />
+      <item itemvalue="CMake Application.UE4Server-Linux-Test" />
+      <item itemvalue="CMake Application.UnrealAtoS" />
+      <item itemvalue="CMake Application.UnrealAtoS-Linux-Debug" />
+      <item itemvalue="CMake Application.UnrealAtoS-Linux-DebugGame" />
+      <item itemvalue="CMake Application.UnrealAtoS-Linux-Shipping" />
+      <item itemvalue="CMake Application.UnrealAtoS-Linux-Test" />
+      <item itemvalue="CMake Application.UnrealCEFSubProcess" />
+      <item itemvalue="CMake Application.UnrealCEFSubProcess-Linux-Debug" />
+      <item itemvalue="CMake Application.UnrealCEFSubProcess-Linux-DebugGame" />
+      <item itemvalue="CMake Application.UnrealCEFSubProcess-Linux-Shipping" />
+      <item itemvalue="CMake Application.UnrealCEFSubProcess-Linux-Test" />
+      <item itemvalue="CMake Application.UnrealFileServer" />
+      <item itemvalue="CMake Application.UnrealFileServer-Linux-Debug" />
+      <item itemvalue="CMake Application.UnrealFileServer-Linux-DebugGame" />
+      <item itemvalue="CMake Application.UnrealFileServer-Linux-Shipping" />
+      <item itemvalue="CMake Application.UnrealFileServer-Linux-Test" />
+      <item itemvalue="CMake Application.UnrealFrontend" />
+      <item itemvalue="CMake Application.UnrealFrontend-Linux-Debug" />
+      <item itemvalue="CMake Application.UnrealFrontend-Linux-DebugGame" />
+      <item itemvalue="CMake Application.UnrealFrontend-Linux-Shipping" />
+      <item itemvalue="CMake Application.UnrealFrontend-Linux-Test" />
+      <item itemvalue="CMake Application.UnrealHeaderTool" />
+      <item itemvalue="CMake Application.UnrealHeaderTool-Linux-Debug" />
+      <item itemvalue="CMake Application.UnrealHeaderTool-Linux-DebugGame" />
+      <item itemvalue="CMake Application.UnrealHeaderTool-Linux-Shipping" />
+      <item itemvalue="CMake Application.UnrealHeaderTool-Linux-Test" />
+      <item itemvalue="CMake Application.UnrealLaunchDaemon" />
+      <item itemvalue="CMake Application.UnrealLaunchDaemon-Linux-Debug" />
+      <item itemvalue="CMake Application.UnrealLaunchDaemon-Linux-DebugGame" />
+      <item itemvalue="CMake Application.UnrealLaunchDaemon-Linux-Shipping" />
+      <item itemvalue="CMake Application.UnrealLaunchDaemon-Linux-Test" />
+      <item itemvalue="CMake Application.UnrealLightmass" />
+      <item itemvalue="CMake Application.UnrealLightmass-Linux-Debug" />
+      <item itemvalue="CMake Application.UnrealLightmass-Linux-DebugGame" />
+      <item itemvalue="CMake Application.UnrealLightmass-Linux-Shipping" />
+      <item itemvalue="CMake Application.UnrealLightmass-Linux-Test" />
+      <item itemvalue="CMake Application.UnrealMultiUserServer" />
+      <item itemvalue="CMake Application.UnrealMultiUserServer-Linux-Debug" />
+      <item itemvalue="CMake Application.UnrealMultiUserServer-Linux-DebugGame" />
+      <item itemvalue="CMake Application.UnrealMultiUserServer-Linux-Shipping" />
+      <item itemvalue="CMake Application.UnrealMultiUserServer-Linux-Test" />
+      <item itemvalue="CMake Application.UnrealPak" />
+      <item itemvalue="CMake Application.UnrealPak-Linux-Debug" />
+      <item itemvalue="CMake Application.UnrealPak-Linux-DebugGame" />
+      <item itemvalue="CMake Application.UnrealPak-Linux-Shipping" />
+      <item itemvalue="CMake Application.UnrealPak-Linux-Test" />
+      <item itemvalue="CMake Application.UnrealVersionSelector" />
+      <item itemvalue="CMake Application.UnrealVersionSelector-Linux-Debug" />
+      <item itemvalue="CMake Application.UnrealVersionSelector-Linux-DebugGame" />
+      <item itemvalue="CMake Application.UnrealVersionSelector-Linux-Shipping" />
+      <item itemvalue="CMake Application.UnrealVersionSelector-Linux-Test" />
+      <item itemvalue="CMake Application.UnrealWatchdog" />
+      <item itemvalue="CMake Application.UnrealWatchdog-Linux-Debug" />
+      <item itemvalue="CMake Application.UnrealWatchdog-Linux-DebugGame" />
+      <item itemvalue="CMake Application.UnrealWatchdog-Linux-Shipping" />
+      <item itemvalue="CMake Application.UnrealWatchdog-Linux-Test" />
+      <item itemvalue="CMake Application.WebRTCProxy" />
+      <item itemvalue="CMake Application.WebRTCProxy-Linux-Debug" />
+      <item itemvalue="CMake Application.WebRTCProxy-Linux-DebugGame" />
+      <item itemvalue="CMake Application.WebRTCProxy-Linux-Shipping" />
+      <item itemvalue="CMake Application.WebRTCProxy-Linux-Test" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fbfe7833-5d2f-4712-89c8-c2ac47f64d7a" name="Default Changelist" comment="" />
+      <created>1558097244234</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558097244234</updated>
+      <workItem from="1558097245641" duration="17000" />
+      <workItem from="1558097300626" duration="557000" />
+      <workItem from="1558098114656" duration="544000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1118000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1966" y="-4" width="1874" height="1084" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20757738" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31822473" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" />
+      <window_info anchor="right" id="Json Parser" />
+      <window_info anchor="right" id="make" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Source/BuildingEscape/Grabber.h</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Source/BuildingEscape.Target.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.proj/Editors/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/3DVisualizer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.proj/Editors/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/EditorViewportCommands.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.proj/Editors/UnrealEngine/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Private/Abilities/Tasks/AbilityTask_WaitCancel.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.proj/Editors/UnrealEngine/Engine/Source/Runtime/MediaAssets/Private/Assets/MediaPlaylist.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuildingEscape.uproject">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/BuildingEscape/Grabber.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/BuildingEscape/BuildingEscape.Build.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/BuildingEscape/BuildingEscape.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/BuildingEscape/Grabber.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="43" column="2" lean-forward="true" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuildingEscapeCodeLitePreProcessor.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13004" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuildingEscapeCodeCompletionFolders.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

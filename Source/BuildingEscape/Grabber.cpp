@@ -2,7 +2,7 @@
 
 
 #include "Grabber.h"
-
+#include <vector>
 
 // Sets default values for this component's properties
 UGrabber::UGrabber()
@@ -10,12 +10,12 @@ UGrabber::UGrabber()
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
-
 	// ...
+	
 }
 
 void UGrabber::Grab(){
-	UE_LOG(LogTemp, Warning, TEXT("Input component found %s"), 	 )
+	UE_LOG(LogTemp, Warning, TEXT("Input component found %s"), 	*GetOwner()->GetName())
 }
 // Called when the game starts
 void UGrabber::BeginPlay()
@@ -36,10 +36,7 @@ void UGrabber::BeginPlay()
 	}
 
 	InputComponent = GetOwner()->FindComponentByClass<UInputComponent>();
-	if (InputComponent)
-	{
-
-		/// Bind the input axis
+	if (InputComponent) {
 		InputComponent->BindAction("Grab", IE_Pressed, this, &UGrabber::Grab);
 	}
 	else
