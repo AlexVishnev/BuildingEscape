@@ -26,19 +26,29 @@ public:
 	virtual void BeginPlay() override;
 
 protected:
+	// Ray-cast and grab /release object in reach
 	void Grab();
+
 	void Release();
-	
 
+	// Find attached Physics Handle
+	void FindPhysicsHandleComponent();
 
-private: 
+	// Find atteched input component
+	void SetupInputComponent();
+
+	// Hit for first physics body in reach
+
+	FHitResult GetFirstPhysicsBodyInReach() const;
+
+private:
+	// lentgh of ray castS
 	float Reach = 100.f;
 	
 	UWorld const *World;
-	FVector PlayerViewPointLocation;
-	FRotator PlayerViewPointRotation;
 
-	UPhysicsHandleComponent* PhysicsHandle = nullptr;
-	UInputComponent* InputComponent = nullptr;
+
+	UPhysicsHandleComponent *PhysicsHandle = nullptr;
+	UInputComponent *InputComponent = nullptr;
 	
 };

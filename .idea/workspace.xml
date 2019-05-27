@@ -18,7 +18,7 @@
       <config projectName="UE4" targetName="UnrealFileServer-Linux-DebugGame" />
       <config projectName="UE4" targetName="UE4Client-Linux-Test" />
       <config projectName="UE4" targetName="MayaLiveLinkPlugin2018-Linux-Test" />
-      <config projectName="UE4" targetName="MayaLiveLinkPlugin2017-Linux-Test" />
+      <config projectName="UE4" targetNa  me="MayaLiveLinkPlugin2017-Linux-Test" />
       <config projectName="UE4" targetName="MayaLiveLinkPlugin2016-Linux-Test" />
       <config projectName="UE4" targetName="MayaLiveLinkPlugin2017-Linux-Debug" />
       <config projectName="UE4" targetName="SlateViewer-Linux-DebugGame" />

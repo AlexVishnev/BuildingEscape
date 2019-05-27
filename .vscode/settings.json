@@ -1,9 +1,14 @@
 {
 	"files.exclude": {
 		"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape 4.22/.git": true,
+		"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape 4.22/.idea": true,
 		"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape 4.22/.kdev4": true,
 		"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape 4.22/.vscode": true,
+		"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape 4.22/CMakeFiles": true,
 		"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape 4.22/Content": true,
-		"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape 4.22/Intermediate": true
+		"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape 4.22/DerivedDataCache": true,
+		"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape 4.22/Intermediate": true,
+		"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape 4.22/Saved": true,
+		"/home/ovishevskiy/Documents/UnrealProjects/BuildingEscape 4.22/cmake-build-debug": true
 	}
 }
