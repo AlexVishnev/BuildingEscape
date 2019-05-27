@@ -26,9 +26,9 @@ void UGrabber::Grab()
 	{
 		if (!PhysicsHandle)
 			return ;
- 		PhysicsHandle->GrabComponent(ComponentToGrab, NAME_None, 
+ 		PhysicsHandle->GrabComponentAtLocationWithRotation(ComponentToGrab, NAME_None, 
 									 ComponentToGrab->GetOwner()->GetActorLocation(), 
-									 true);
+									  ComponentToGrab->GetOwner()->GetActorRotation());
 	}
 }
 
