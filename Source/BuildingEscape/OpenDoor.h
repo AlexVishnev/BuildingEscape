@@ -17,16 +17,16 @@ class BUILDINGESCAPE_API UOpenDoor : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UOpenDoor();
-
 	bool DoorIsOpen(FString name);
+	// Called every frame
+	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
-public:	
-	// Called every frame
-	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+	float GetTotalMassOfActorsOnPlate();
+
 private:
 
 	void	ChangeDoorState(FString name, bool bDoorIsOpen, float AnimationDelay);
@@ -50,4 +50,6 @@ private:
 	AActor *ActorThatOpen;
 	AActor *Owner;
 	
+
+
 };

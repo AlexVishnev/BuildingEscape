@@ -28,8 +28,13 @@ public:
 protected:
 	// Ray-cast and grab /release object in reach
 	void Grab();
-
 	void Release();
+
+	// Return current end for reach line
+	FVector GetReachLineEnd() const ;
+
+	// Return current start for reach line
+	FVector GetReachLineStart() const ;
 
 	// Find attached Physics Handle
 	void FindPhysicsHandleComponent();

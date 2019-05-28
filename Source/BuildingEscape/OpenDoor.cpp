@@ -28,19 +28,19 @@ bool UOpenDoor::DoorIsOpen(FString name)
 
 void UOpenDoor::ChangeDoorState(FString name, bool bDoorIsOpen, float AnimationDelay)
 {
-//	if (Owner)
-//		Owner->SetActorRotation(bDoorIsOpen ? OpenState : CloseState); //
+	if (Owner)
+		Owner->SetActorRotation(bDoorIsOpen ? OpenState : CloseState); //
 
-	if (bDoorIsOpen)
-	{
-		for (auto State: OpenStates)
-		{
-			if (Owner)
-			{
-				Owner->SetActorRotation(State);
-			}
-		}
-	}
+	// if (bDoorIsOpen)
+	// {
+	// 	for (auto State: OpenStates)
+	// 	{
+	// 		if (Owner)
+	// 		{
+	// 			Owner->SetActorRotation(State);
+	// 		}
+	// 	}
+	// }
 }
 
 // Called when the game starts
@@ -63,18 +63,28 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	if (PressurePlate && PressurePlate->IsOverlappingActor(ActorThatOpen))
+	if (GetTotalMassOfActorsOnPlate() > 100.g)
 	{
-		PRINT("COLLISION DOOR IS OPEN");
-		ChangeDoorState("", OPENDOOR, GetWorld()->GetTimeSeconds() - LastOpenTimeDoor);
-		LastOpenTimeDoor = GetWorld()->GetTimeSeconds();
+		if (PressurePlate && PressurePlate->IsOverlappingActor(ActorThatOpen))
+		{
+			PRINT("COLLISION DOOR IS OPEN");
+
+			ChangeDoorState("", OPENDOOR, GetWorld()->GetTimeSeconds() - LastOpenTimeDoor);
+			LastOpenTimeDoor = GetWorld()->GetTimeSeconds();
+		}
 	}
 
 	//close door after delay
 	if (GetWorld()->GetTimeSeconds() - LastOpenTimeDoor > DoorCloseDelay) 
 	{
-		ChangeDoorState("",CLOSEDOOR, GetWorld()->GetTimeSeconds() - LastOpenTimeDoor);
+		ChangeDoorState("", CLOSEDOOR, GetWorld()->GetTimeSeconds() - LastOpenTimeDoor);
 		//PRINT("TIMES OUT door is closed");
 	}
 }
-
+float UOpenDoor::GetTotalMassOfActorsOnPlate()
+{
+	float TotalMass = 150.f;
+	TArray<AActor *> OverlappingActors;
+	PressurePlate->GetOverlappingActors(OverlappingActors);
+	return TotalMass;
+}
