@@ -12,36 +12,6 @@ UOpenDoor::UOpenDoor()
 	// ...
 }
 
-void	UOpenDoor::CreateAnimationForDoorStates()
-{
-	for (size_t i = 0; i < 90; i+= 2.5f)
-	{
-		OpenStates.push_back(FRotator(0.f, i, 0.f));
-		CloseStates.push_back(FRotator(0.f, 90.f - i, 0.f));
-	}
-}
-
-bool UOpenDoor::DoorIsOpen(FString name)
-{
-	return true;
-}
-
-void UOpenDoor::ChangeDoorState(FString name, bool bDoorIsOpen, float AnimationDelay)
-{
-	if (Owner)
-		Owner->SetActorRotation(bDoorIsOpen ? OpenState : CloseState); //
-
-	// if (bDoorIsOpen)
-	// {
-	// 	for (auto State: OpenStates)
-	// 	{
-	// 		if (Owner)
-	// 		{
-	// 			Owner->SetActorRotation(State);
-	// 		}
-	// 	}
-	// }
-}
 
 // Called when the game starts
 void UOpenDoor::BeginPlay()
@@ -50,11 +20,6 @@ void UOpenDoor::BeginPlay()
 
 	Owner			= GetOwner();
 	ActorThatOpen	= GetWorld()->GetFirstPlayerController()->GetPawn();
-
-	OpenState		= FRotator(0.0f, 90.0f, 0.0f);
-	CloseState		= FRotator(0.0f, 0.0f, 0.0f);
-
-	CreateAnimationForDoorStates();
 }
 
 
@@ -63,28 +28,33 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	if (GetTotalMassOfActorsOnPlate() > 100.g)
+	if (GetTotalMassOfActorsOnPlate() > TriggerMass)
 	{
-		if (PressurePlate && PressurePlate->IsOverlappingActor(ActorThatOpen))
-		{
-			PRINT("COLLISION DOOR IS OPEN");
-
-			ChangeDoorState("", OPENDOOR, GetWorld()->GetTimeSeconds() - LastOpenTimeDoor);
-			LastOpenTimeDoor = GetWorld()->GetTimeSeconds();
-		}
+		if (PressurePlate)
+			OnOpen.Broadcast();
 	}
-
-	//close door after delay
-	if (GetWorld()->GetTimeSeconds() - LastOpenTimeDoor > DoorCloseDelay) 
+	else
 	{
-		ChangeDoorState("", CLOSEDOOR, GetWorld()->GetTimeSeconds() - LastOpenTimeDoor);
-		//PRINT("TIMES OUT door is closed");
+		if (PressurePlate)
+			OnClose.Broadcast();
 	}
+	
 }
 float UOpenDoor::GetTotalMassOfActorsOnPlate()
 {
-	float TotalMass = 150.f;
+	float TotalMass = 0.f;
+	if (!PressurePlate)
+	{
+		UE_LOG(LogTemp, Error, TEXT("!PressurePlate"));
+		return 0;
+	}
 	TArray<AActor *> OverlappingActors;
 	PressurePlate->GetOverlappingActors(OverlappingActors);
+
+	for (const auto *var: OverlappingActors)
+	{
+		TotalMass += var->FindComponentByClass<UPrimitiveComponent>()->GetMass();
+	}
+	
 	return TotalMass;
 }

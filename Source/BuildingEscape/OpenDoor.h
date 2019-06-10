@@ -5,22 +5,28 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "Engine/TriggerVolume.h"
-#include <list>
 #include "OpenDoor.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FDoorEvent);
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
 class BUILDINGESCAPE_API UOpenDoor : public UActorComponent
 {
 	GENERATED_BODY()
 
-public:	
+public:
 	// Sets default values for this component's properties
 	UOpenDoor();
 	bool DoorIsOpen(FString name);
 	// Called every frame
-	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction) override;
 
+	UPROPERTY(BlueprintAssignable)
+	FDoorEvent OnOpen;
+
+	UPROPERTY(BlueprintAssignable)
+	FDoorEvent OnClose;
+	
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -28,28 +34,12 @@ protected:
 	float GetTotalMassOfActorsOnPlate();
 
 private:
-
-	void	ChangeDoorState(FString name, bool bDoorIsOpen, float AnimationDelay);
-	void	CreateAnimationForDoorStates();
-
-
-	std::list <FRotator> OpenStates;
-	std::list <FRotator> CloseStates;
-	
-	FRotator CloseState;
-	FRotator OpenState;
-	
 	UPROPERTY(EditAnywhere)
-	ATriggerVolume *PressurePlate;
+	ATriggerVolume *PressurePlate = nullptr;
 
 	UPROPERTY(EditAnywhere)
-	float DoorCloseDelay;
+	float TriggerMass = 30.f;
 
-	float LastOpenTimeDoor;
-
-	AActor *ActorThatOpen;
-	AActor *Owner;
-	
-
-
+	AActor *ActorThatOpen = nullptr;
+	AActor *Owner = nullptr;
 };
